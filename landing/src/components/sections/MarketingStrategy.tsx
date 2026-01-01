@@ -15,6 +15,70 @@ export default function MarketingStrategy() {
                     </div>
                 </div>
 
+                {/* 마케팅 소재 문구 */}
+                <div className="mb-16">
+                    <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 text-stone-900">
+                        <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
+                        마케팅 소재 문구
+                    </h3>
+
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                        {/* 문구 1 */}
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-violet-500 to-purple-600 p-6 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                            <Icon icon="lucide:quote" className="w-8 h-8 text-white/30 mb-3" />
+                            <p className="text-white font-bold text-lg leading-relaxed">
+                                "청담동 학원강사의 실시간 학습 자료를 볼 수 있는 곳?"
+                            </p>
+                        </div>
+
+                        {/* 문구 2 */}
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-500 to-amber-500 p-6 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                            <Icon icon="lucide:quote" className="w-8 h-8 text-white/30 mb-3" />
+                            <p className="text-white font-bold text-lg leading-relaxed">
+                                "3년 전에 만든 PDF가 지금도 팔린다고?"
+                            </p>
+                        </div>
+
+                        {/* 문구 3 */}
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 p-6 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                            <Icon icon="lucide:quote" className="w-8 h-8 text-white/30 mb-3" />
+                            <p className="text-white font-bold text-lg leading-relaxed">
+                                "대치동 영어쌤의 수능 비밀 노트"
+                            </p>
+                        </div>
+
+                        {/* 문구 4 */}
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 p-6 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                            <Icon icon="lucide:quote" className="w-8 h-8 text-white/30 mb-3" />
+                            <p className="text-white font-bold text-lg leading-relaxed">
+                                "세상에서 가장 쉬운 경제 숏폼 뉴스"
+                            </p>
+                        </div>
+
+                        {/* 문구 5 (추가) */}
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-pink-500 to-rose-600 p-6 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                            <Icon icon="lucide:quote" className="w-8 h-8 text-white/30 mb-3" />
+                            <p className="text-white font-bold text-lg leading-relaxed">
+                                "PDF 한 권이 숏폼 10개로, 30분 만에?"
+                            </p>
+                        </div>
+
+                        {/* 문구 6 (추가) */}
+                        <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-700 to-slate-900 p-6 hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl">
+                            <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+                            <Icon icon="lucide:quote" className="w-8 h-8 text-white/30 mb-3" />
+                            <p className="text-white font-bold text-lg leading-relaxed">
+                                "잠자던 전자책이 다시 돈을 벌기 시작했다"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 {/* 바이럴 마케팅 */}
                 <div className="mb-12">
                     <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 text-stone-900">
