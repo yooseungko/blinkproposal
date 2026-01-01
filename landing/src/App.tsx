@@ -13,7 +13,7 @@ import Philosophy from './components/sections/Philosophy'
 import Team from './components/sections/Team'
 
 function App() {
-  const [activeSection, setActiveSection] = useState('hero')
+  const [activeSection] = useState('hero')
   const [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-import { Icon } from '@iconify/react'
+
 
 export default function Team() {
     const teamMembers = [
