@@ -8,7 +8,7 @@ export default function MarketAnalysis() {
             <div className="max-w-6xl mx-auto">
                 {/* Section Number & Title */}
                 <div className="flex items-center gap-4 mb-12">
-                    <div className="text-6xl font-black gradient-text">02</div>
+                    <div className="text-6xl font-black gradient-text">03</div>
                     <div>
                         <h2 className="text-4xl md:text-5xl font-bold text-stone-900">시장 분석</h2>
                         <p className="text-stone-500 mt-2">Market Analysis</p>

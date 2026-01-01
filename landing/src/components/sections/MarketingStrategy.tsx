@@ -8,7 +8,7 @@ export default function MarketingStrategy() {
             <div className="max-w-6xl mx-auto">
                 {/* Section Number & Title */}
                 <div className="flex items-center gap-4 mb-12">
-                    <div className="text-6xl font-black gradient-text">05</div>
+                    <div className="text-6xl font-black gradient-text">06</div>
                     <div>
                         <h2 className="text-4xl md:text-5xl font-bold text-stone-900">마케팅 전략</h2>
                         <p className="text-stone-500 mt-2">Marketing Strategy</p>

@@ -56,7 +56,7 @@ export default function Team() {
             <div className="max-w-6xl mx-auto">
                 {/* Section Number & Title */}
                 <div className="flex items-center gap-4 mb-12">
-                    <div className="text-6xl font-black gradient-text">09</div>
+                    <div className="text-6xl font-black gradient-text">10</div>
                     <div>
                         <h2 className="text-4xl md:text-5xl font-bold text-stone-900">팀</h2>
                         <p className="text-stone-500 mt-2">Team</p>

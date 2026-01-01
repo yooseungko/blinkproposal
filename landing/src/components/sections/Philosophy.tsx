@@ -7,14 +7,23 @@ export default function Philosophy() {
             <div className="absolute bottom-0 right-0 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl -z-10"></div>
 
             <div className="max-w-5xl mx-auto">
+                {/* Section Number & Title */}
+                <div className="flex items-center gap-4 mb-12">
+                    <div className="text-6xl font-black gradient-text">02</div>
+                    <div>
+                        <h2 className="text-4xl md:text-5xl font-bold text-stone-900">사업 철학</h2>
+                        <p className="text-stone-500 mt-2">Philosophy</p>
+                    </div>
+                </div>
+
                 {/* 메인 헤드라인 */}
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-stone-900 mb-4">
+                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-black text-stone-900 mb-4">
                         전자책, PDF
-                    </h2>
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-black gradient-text mb-8">
+                    </h3>
+                    <h3 className="text-4xl md:text-5xl lg:text-6xl font-black gradient-text mb-8">
                         숏폼이 되면 매출이 됩니다
-                    </h2>
+                    </h3>
                 </div>
 
                 {/* 역주행의 비밀 카드 */}

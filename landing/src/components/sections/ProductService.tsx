@@ -8,7 +8,7 @@ export default function ProductService() {
             <div className="max-w-6xl mx-auto">
                 {/* Section Number & Title */}
                 <div className="flex items-center gap-4 mb-12">
-                    <div className="text-6xl font-black gradient-text">04</div>
+                    <div className="text-6xl font-black gradient-text">05</div>
                     <div>
                         <h2 className="text-4xl md:text-5xl font-bold text-stone-900">제품/서비스</h2>
                         <p className="text-stone-500 mt-2">Product & Service</p>

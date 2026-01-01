@@ -34,6 +34,7 @@ function App() {
   const navItems = [
     { id: 'hero', label: '홈' },
     { id: 'business-overview', label: '사업 개요' },
+    { id: 'philosophy', label: '사업 철학' },
     { id: 'market-analysis', label: '시장 분석' },
     { id: 'business-model', label: '비즈니스 모델' },
     { id: 'product-service', label: '제품/서비스' },
