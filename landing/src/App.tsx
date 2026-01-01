@@ -40,6 +40,9 @@ function App() {
     { id: 'marketing-strategy', label: '마케팅 전략' },
     { id: 'operations-plan', label: '운영 계획' },
     { id: 'financial-plan', label: '재무 계획' },
+    { id: 'milestones', label: '마일스톤' },
+    { id: 'team', label: '팀' },
+    { id: 'vision-mission', label: '비전' },
   ]
 
   return (
