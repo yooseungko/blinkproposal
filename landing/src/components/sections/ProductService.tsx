@@ -15,6 +15,86 @@ export default function ProductService() {
                     </div>
                 </div>
 
+                {/* 서비스 라인업 */}
+                <div className="glass-card p-8 md:p-12 mb-16 bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border-emerald-500/30">
+                    <h3 className="text-2xl font-bold mb-8 text-center text-stone-900">서비스 라인업</h3>
+                    <div className="grid md:grid-cols-2 gap-8">
+                        {/* 블링크 스튜디오 - 부각 */}
+                        <div className="relative border-2 border-emerald-500 rounded-2xl p-8 bg-white shadow-lg shadow-emerald-500/20">
+                            <div className="absolute -top-3 left-4 px-3 py-1 bg-emerald-500 text-white text-xs font-bold rounded-full flex items-center gap-1">
+                                <Icon icon="lucide:play" className="w-3 h-3" />
+                                시범운영중
+                            </div>
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center">
+                                    <Icon icon="lucide:video" className="w-6 h-6 text-white" />
+                                </div>
+                                <h4 className="text-2xl font-black gradient-text">블링크 스튜디오</h4>
+                            </div>
+                            <p className="text-stone-600 mb-4 font-medium">PDF를 숏폼으로 변환하는 AI 제작 솔루션</p>
+                            <ul className="space-y-3 text-sm text-stone-700">
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:check-circle" className="w-5 h-5 text-emerald-500" />
+                                    <span className="font-medium">AI 자동 스크립트 생성</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:check-circle" className="w-5 h-5 text-emerald-500" />
+                                    <span className="font-medium">프리미엄 영상 편집</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:check-circle" className="w-5 h-5 text-emerald-500" />
+                                    <span className="font-medium">멀티 플랫폼 배포</span>
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:check-circle" className="w-5 h-5 text-emerald-500" />
+                                    <span className="font-medium">A/B 테스트 최적화</span>
+                                </li>
+                            </ul>
+                            <div className="mt-6 pt-4 border-t border-emerald-200">
+                                <div className="flex items-center justify-between">
+                                    <span className="text-sm text-stone-500">현재 베타 테스터 모집중</span>
+                                    <span className="text-emerald-600 font-bold">🚀 NOW</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* 블링크 앱 */}
+                        <div className="relative border border-stone-300 rounded-2xl p-8 bg-stone-50/50">
+                            <div className="absolute -top-3 left-4 px-3 py-1 bg-stone-400 text-white text-xs font-bold rounded-full flex items-center gap-1">
+                                <Icon icon="lucide:clock" className="w-3 h-3" />
+                                출시 예정
+                            </div>
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="w-12 h-12 rounded-xl bg-stone-300 flex items-center justify-center">
+                                    <Icon icon="lucide:smartphone" className="w-6 h-6 text-stone-500" />
+                                </div>
+                                <h4 className="text-2xl font-bold text-stone-500">블링크 앱</h4>
+                            </div>
+                            <p className="text-stone-500 mb-4">숏폼 콘텐츠 마켓플레이스</p>
+                            <ul className="space-y-3 text-sm text-stone-500">
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:circle" className="w-4 h-4 text-stone-400" />
+                                    콘텐츠 판매 및 수익화
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:circle" className="w-4 h-4 text-stone-400" />
+                                    맞춤형 추천 시스템
+                                </li>
+                                <li className="flex items-center gap-2">
+                                    <Icon icon="lucide:circle" className="w-4 h-4 text-stone-400" />
+                                    구독 서비스
+                                </li>
+                            </ul>
+                            <div className="mt-6 pt-4 border-t border-stone-200">
+                                <div className="flex items-center justify-between">
+                                    <span className="text-sm text-stone-400">2025년 하반기 예정</span>
+                                    <span className="text-stone-400 font-medium">COMING SOON</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* AI 파이프라인 */}
                 <div className="mb-16">
                     <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 text-stone-900">
@@ -660,49 +740,7 @@ export default function ProductService() {
                     </div>
                 </div>
 
-                {/* 서비스 라인업 */}
-                <div className="glass-card p-8 md:p-12 bg-emerald-500/5 border-emerald-500/20">
-                    <h3 className="text-2xl font-bold mb-8 text-center text-stone-900">서비스 라인업</h3>
-                    <div className="grid md:grid-cols-2 gap-8">
-                        <div className="border border-emerald-500/30 rounded-2xl p-8 bg-white/50">
-                            <h4 className="text-2xl font-bold mb-4 gradient-text">블링크 스튜디오</h4>
-                            <p className="text-stone-600 mb-4">PDF를 숏폼으로 변환하는 AI 제작 솔루션</p>
-                            <ul className="space-y-2 text-sm text-stone-600">
-                                <li className="flex items-center gap-2">
-                                    <Icon icon="lucide:check" className="w-4 h-4 text-emerald-500" />
-                                    AI 자동 스크립트 생성
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <Icon icon="lucide:check" className="w-4 h-4 text-emerald-500" />
-                                    프리미엄 영상 편집
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <Icon icon="lucide:check" className="w-4 h-4 text-emerald-500" />
-                                    멀티 플랫폼 배포
-                                </li>
-                            </ul>
-                        </div>
 
-                        <div className="border border-emerald-400/30 rounded-2xl p-8 bg-white/50">
-                            <h4 className="text-2xl font-bold mb-4 gradient-text">블링크 앱</h4>
-                            <p className="text-stone-600 mb-4">숏폼 콘텐츠 마켓플레이스</p>
-                            <ul className="space-y-2 text-sm text-stone-600">
-                                <li className="flex items-center gap-2">
-                                    <Icon icon="lucide:check" className="w-4 h-4 text-emerald-500" />
-                                    콘텐츠 판매 및 수익화
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <Icon icon="lucide:check" className="w-4 h-4 text-emerald-500" />
-                                    맞춤형 추천 시스템
-                                </li>
-                                <li className="flex items-center gap-2">
-                                    <Icon icon="lucide:check" className="w-4 h-4 text-emerald-500" />
-                                    구독 서비스
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     )
