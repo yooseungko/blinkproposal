@@ -51,11 +51,8 @@ function App() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'glass-card py-4' : 'bg-transparent py-6'
         }`}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center font-black text-white">
-              B
-            </div>
-            <span className="font-bold text-lg gradient-text">Blink Studio</span>
+          <div className="flex items-center">
+            <span className="font-bold text-xl gradient-text">Blink Business Plan</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -71,11 +68,6 @@ function App() {
               </button>
             ))}
           </div>
-
-          {/* Contact Button */}
-          <button className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 rounded-lg text-sm font-semibold text-white hover:shadow-lg hover:shadow-emerald-500/30 transition-all">
-            문의하기
-          </button>
         </div>
       </nav>
 
@@ -191,9 +183,6 @@ function App() {
                 className="px-8 py-4 bg-emerald-600 hover:bg-emerald-500 rounded-xl font-semibold text-lg text-white hover:shadow-2xl hover:shadow-emerald-500/30 transition-all duration-300 hover:scale-105"
               >
                 사업계획서 살펴보기
-              </button>
-              <button className="px-8 py-4 glass-card-hover font-semibold text-lg text-stone-700">
-                문의하기
               </button>
             </div>
           </div>
